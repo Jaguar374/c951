@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      Hello! I'm your career advisor chatbot. Let's explore computing careers suited for you.
+      <br/>
+      Please select your area of interest:
+      <button>
+        <text>Coding</text>
+        <postback>I ENJOY CODING</postback>
+      </button>
+      <button>
+        <text>Data Analysis</text>
+        <postback>I ENJOY ANALYZING DATA</postback>
+      </button>
+      <button>
+        <text>Cybersecurity</text>
+        <postback>I ENJOY SECURING SYSTEMS</postback>
+      </button>
+      <button>
+        <text>Web Design</text>
+        <postback>I ENJOY DESIGNING WEBSITES</postback>
+      </button>
+      <button>
+        <text>Artificial Intelligence</text>
+        <postback>I ENJOY WORKING WITH AI</postback>
+      </button>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HI</pattern>
+    <template>
+      Hi there! I'm here to help you find a computing career that matches your interests.
+      <br/>
+      Please select your area of interest:
+      <button>
+        <text>Coding</text>
+        <postback>I ENJOY CODING</postback>
+      </button>
+      <button>
+        <text>Data Analysis</text>
+        <postback>I ENJOY ANALYZING DATA</postback>
+      </button>
+      <button>
+        <text>Cybersecurity</text>
+        <postback>I ENJOY SECURING SYSTEMS</postback>
+      </button>
+      <button>
+        <text>Web Design</text>
+        <postback>I ENJOY DESIGNING WEBSITES</postback>
+      </button>
+      <button>
+        <text>Artificial Intelligence</text>
+        <postback>I ENJOY WORKING WITH AI</postback>
+      </button>
+    </template>
+  </category>
+</aiml>

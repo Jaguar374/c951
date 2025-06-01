@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>*</pattern>
+    <template>
+      I'm sorry, I didn't quite understand that. Please select your area of interest:
+      <button>
+        <text>Coding</text>
+        <postback>I ENJOY CODING</postback>
+      </button>
+      <button>
+        <text>Data Analysis</text>
+        <postback>I ENJOY ANALYZING DATA</postback>
+      </button>
+      <button>
+        <text>Cybersecurity</text>
+        <postback>I ENJOY SECURING SYSTEMS</postback>
+      </button>
+      <button>
+        <text>Web Design</text>
+        <postback>I ENJOY DESIGNING WEBSITES</postback>
+      </button>
+      <button>
+        <text>Artificial Intelligence</text>
+        <postback>I ENJOY WORKING WITH AI</postback>
+      </button>
+    </template>
+  </category>
+</aiml>

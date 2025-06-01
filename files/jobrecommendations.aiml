@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Software Engineer -->
+  <category>
+    <pattern>I ENJOY CODING</pattern>
+    <template>
+      That's great! Based on your interest in coding, a career as a Software Engineer might suit you.
+      <br/>
+      Learn more here:
+      <button>
+        <text>Software Engineer Info</text>
+        <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</url>
+      </button>
+    </template>
+  </category>
+
+  <!-- Data Analyst -->
+  <category>
+    <pattern>I ENJOY ANALYZING DATA</pattern>
+    <template>
+      Wonderful! Your analytical skills align well with a Data Analyst role.
+      <br/>
+      Learn more here:
+      <button>
+        <text>Data Analyst Info</text>
+        <url>https://www.bls.gov/ooh/business-and-financial/market-research-analysts.htm</url>
+      </button>
+    </template>
+  </category>
+
+  <!-- Cybersecurity Analyst -->
+  <category>
+    <pattern>I ENJOY SECURING SYSTEMS</pattern>
+    <template>
+      Excellent! A career as a Cybersecurity Analyst could be a great fit for you.
+      <br/>
+      Learn more here:
+      <button>
+        <text>Cybersecurity Analyst Info</text>
+        <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</url>
+      </button>
+    </template>
+  </category>
+
+  <!-- Web Developer -->
+  <category>
+    <pattern>I ENJOY DESIGNING WEBSITES</pattern>
+    <template>
+      Fantastic! Your interest in design points towards a Web Developer role.
+      <br/>
+      Learn more here:
+      <button>
+        <text>Web Developer Info</text>
+        <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm</url>
+      </button>
+    </template>
+  </category>
+
+  <!-- Machine Learning Engineer -->
+  <category>
+    <pattern>I ENJOY WORKING WITH AI</pattern>
+    <template>
+      Impressive! A career as a Machine Learning Engineer might be perfect for you.
+      <br/>
+      Learn more here:
+      <button>
+        <text>Machine Learning Engineer Info</text>
+        <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm</url>
+      </button>
+    </template>
+  </category>
+</aiml>
